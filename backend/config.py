@@ -1,0 +1,7 @@
+DB_USERNAME = "root"
+DB_PASSWORD = ""
+DB_HOST = "localhost"
+DB_NAME = "task_manager"
+
+SQLALCHEMY_DATABASE_URI = f"mysql+pymysql://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}/{DB_NAME}"
+SQLALCHEMY_TRACK_MODIFICATIONS = False
